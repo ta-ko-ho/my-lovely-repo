@@ -1,0 +1,12 @@
+[package]
+name = "ta-ko-ho/None"
+version = "0.2.4"
+description = "Astro.dev Wasmer starter package"
+readme = "README.md"
+repository = "https://github.com/ta-ko-ho/my-lovely-repo"
+
+[dependencies]
+"wasmer/static-web-server" = "*"
+
+[fs]
+public = "dist"
